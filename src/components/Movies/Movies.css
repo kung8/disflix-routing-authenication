@@ -1,0 +1,33 @@
+.movie-body {
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+}
+
+.mapped-movies {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.movies {
+    color:white;
+    height:350px;
+    background:navy;
+    margin-bottom: 10px;
+    width:250px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    border:solid black 2px;
+}
+
+.movie-text {
+    display:flex;
+    flex-direction: column;
+    margin-top:10px;
+    text-align:center;
+}

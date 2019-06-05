@@ -1,0 +1,30 @@
+.login-body {
+    background:grey;
+    height:calc(100vh - 100px);
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+
+.login-box {
+    display:flex;
+    flex-direction: column;
+    height:500px;
+    background:black;
+    justify-content: space-evenly;
+    width:400px;
+    align-items: center;
+}
+
+.login-text {
+    color:white;
+    font-size:50px;
+}
+
+input {
+    font-size:35px;
+    width:250px;
+    height:40px;
+}
+
+

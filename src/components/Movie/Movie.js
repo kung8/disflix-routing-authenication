@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import axios from 'axios'
+import './Movie.css'
 
 export default class Movie extends Component {
     constructor(){
@@ -21,11 +22,15 @@ export default class Movie extends Component {
     render(){
         const {title,year,image,details} = this.state.movie
         return(
-            <div>
-                <h1>{title}</h1>
-                <h3>{year}</h3>
-                <img src={image} alt="movie"/>
-                <p>{details}</p>
+            <div className='card'>
+                <div>
+                    <div>
+                        <h1>{title}</h1>
+                        <h3>{year}</h3>
+                        <img src={image} alt="movie" height='200px' width='150px'/>
+                    </div>
+                    <p>{details}</p>
+                </div>
             </div>
         )
     }
